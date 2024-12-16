@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<style>
+    h1{
+        text-align: center;
+        background-color: black;
+        color: lightgreen;
+        font-size: 80px;
+        font-weight: bolder;
+        text-shadow: 12px 8px 12px blue;
+    }
+</style>
+<body>
+<h1>CareConnect</h1>
+<a href="{% url 'about' %}">About</a>
+<a href="{% url 'contact' %}">Contact</a>
+
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, architecto deleniti dolore eos facere facilis fugiat ipsa, nemo perferendis quae quas recusandae repellat, sint sit suscipit tempora veniam voluptas? Facere!</span><span>Aliquid, autem, dicta dignissimos, ducimus excepturi illo impedit mollitia nam nihil odio perferendis quis reiciendis repellendus rerum velit voluptas voluptatibus. Ab aliquid amet atque cum dolore quos repellendus, rerum voluptate.</span></p>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem maxime perspiciatis velit? Doloremque et molestias neque, perferendis perspiciatis placeat quos! Ad architecto culpa explicabo harum ipsam minus modi nihil repellat.</span><span>Accusamus aperiam aspernatur assumenda atque blanditiis deserunt exercitationem illo labore molestiae nihil nobis non quae quia quisquam repellendus saepe tempore unde ut voluptates, voluptatum? Aliquam assumenda beatae iusto nulla voluptates?</span></p>
+
+<img src="{% static 'assets/img.png' %}" alt="">
+<img src="{% static 'assets/img_2.png' %}" alt="">
+<img src="{% static 'assets/img_3.png' %}" alt="">
+<img src="{% static 'assets/img_4.png' %}" alt="">
+<img src="{% static 'assets/img_5.png' %}" alt="">
+<img src="{% static 'assets/img_6.png' %}" alt="">
+
+</body>
+</html>

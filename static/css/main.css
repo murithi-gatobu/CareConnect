@@ -1,0 +1,15 @@
+img {
+    width: 300px;
+    height: 350px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+img:hover {
+    opacity: 0.7;
+    background-color: lightblue;
+}
+
+h1:hover {
+    background-color: lightblue;
+}
